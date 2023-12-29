@@ -1,0 +1,83 @@
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Xml.Linq;
+
+namespace EntityFramework2
+{
+    public class Student
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Major { get; set; }
+        public string Hometown { get; set; }
+    }
+
+    public class StudentContext : DbContext
+    {
+        public DbSet<Student> Student { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseOracle("User Id=c##scott;Password=tiger;Data Source=127.0.0.1/XE;");
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var context = new StudentContext())
+            {
+                // 특정 칼럼을 통한 Searching
+                var studentToEdit = context.Student.FirstOrDefault(p => p.Name == "홍길동");
+
+                // 변경
+                if(studentToEdit != null)
+                {
+                    studentToEdit.Name = "이성계";
+                    studentToEdit.Hometown = "신의주";
+
+                    // 변경 사항 저장.
+                    context.SaveChanges();
+                    Console.WriteLine("데이터 수정 성공");
+                }
+                else
+                {
+                    Console.WriteLine("데이터를 찾을 수 없습니다.");
+                }
+
+                // 데이터 삭제
+                var studentToDelete = context.Student.FirstOrDefault(p => p.ID == 400);
+
+                if(studentToDelete != null)
+                {
+                    context.Student.Remove(studentToDelete);
+
+                    context.SaveChanges();
+                    Console.WriteLine("데이터를 정상적으로 삭제했습니다.");
+
+                }
+                else
+                {
+                    Console.WriteLine("데이터를 찾을 수 없습니다");
+                }
+            }
+        }
+    }
+}
+
+//Class Student 
+
+//1. No int Pirmary key
+//2. Name varchar2(20)
+//3.Major varchar2(20)
+//4.Hometown varchar2(20)
+
+//150, 이성계, 컴공, 신의주    ---> Update 해주세요.
+//200, 이순신, 정통, 통영
+//300, 강감찬, 기계, 개성
+
+//400, 을지문덕, 멀티, 서울    ---> Delete 해주세요.
+
+// 테이블은 기존에 만들어진 경우를 가정하에 실행

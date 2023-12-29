@@ -1,0 +1,13 @@
+Bookshelf
+Desktop
+Documents
+Downloads
+Music
+nano.save
+Pictures
+Public
+sample.txt
+Templates
+thinclient_drives
+Videos
+workspace

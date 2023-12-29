@@ -1,0 +1,106 @@
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\projectpractice22.exe.config
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\projectpractice22.exe
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\projectpractice22.pdb
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.Form1.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.Properties.Resources.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.exe
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.pdb
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Geared.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.pdb
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.BOM.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.LOT_삭제.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.LOT추가.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.로그인.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.불량등록.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.불량조회.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.상세정보.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.생산일지.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.생산현황.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.원재료조회.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.원재료추가.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.CopyComplete
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\projectpractice22.exe.config
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\projectpractice22.exe
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\projectpractice22.pdb
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Geared.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.pdb
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.BOM.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.Form1.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.과립.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.LOT_삭제.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.LOT추가.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.Properties.Resources.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.로그인.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.불량등록.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.불량조회.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.상세정보.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.생산일지.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.생산현황.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.원재료조회.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.원재료추가.resources
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.csproj.CopyComplete
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.exe
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.pdb
+C:\Users\Admin\Documents\카카오톡 받은 파일\projectpractice22\projectpractice22\obj\Debug\projectpractice22.타정.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Buffers.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Memory.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Buffers.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Memory.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.과립.resources
+C:\Users\Admin\source\repos\projectpractice22\projectpractice22\obj\Debug\projectpractice22.타정.resources

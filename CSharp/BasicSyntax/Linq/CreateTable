@@ -1,0 +1,85 @@
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+
+namespace EntityFramework
+{
+    public class Student
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Major { get; set; }
+        public string Hometown { get; set; }
+    }
+
+    public class StudentContext : DbContext
+    {
+        public DbSet<Student> Student { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseOracle("User Id=c##scott;Password=tiger;Data Source=127.0.0.1/XE;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>()
+                .HasKey(p => p.ID);
+
+            modelBuilder.Entity<Student>()
+                .Property(p => p.Name)
+                .HasMaxLength(20);
+
+            modelBuilder.Entity<Student>()
+                .Property(p => p.Major)
+                .HasMaxLength(20);
+
+            modelBuilder.Entity<Student>()
+                .Property(p => p.Hometown)
+                .HasMaxLength(20);
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            using (var context = new StudentContext())
+            {
+                // 삽입할 데이터 
+                var student = new List<Student>
+                {
+                    new Student{ID = 100, Name="홍길동", Major="컴공", Hometown="안동"},
+                    new Student{ID = 200, Name="이순신", Major="정통", Hometown="통영"},
+                    new Student{ID = 300, Name="강감찬", Major="기계", Hometown="개성"},
+                    new Student{ID = 400, Name="을지문덕", Major="멀티", Hometown="서울"},
+                };
+
+                // DB, Table 생성
+                context.Database.EnsureDeleted(); // 사용시 주의. 이를 사용할 경우 해당 계정 테이블 전체 삭제됨.
+                context.Database.EnsureCreated(); // 같은 이름의 기존의 테이블이 있을 경우 덮어쓰기가 됨.
+                Console.WriteLine("데이터베이스 테이블이 생성되었습니다.");
+
+                // 테이블에 데이터 추가. 
+                context.Student.AddRange(student);
+                
+                //커밋
+                context.SaveChanges(); 
+                Console.WriteLine("데이터 삽입 성공");
+            }
+        }
+    }
+}
+
+//Class Student 
+
+//1. No int Pirmary key
+//2. Name varchar2(20)
+//3.Major varchar2(20)
+//4.Hometown varchar2(20)
+
+//CoreFramework 방식으로 테이블을 만들고 정보를 넣어 보세요.
+
+//100, 홍길동, 컴공, 안동
+//200, 이순신, 정통, 통영
+//300, 강감찬, 기계, 개성
+//400, 을지문덕, 멀티, 서울

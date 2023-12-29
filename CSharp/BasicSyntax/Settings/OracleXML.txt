@@ -1,0 +1,44 @@
+
+C#에서 아래 코드처럼 긴~~ 설정파일을 소스코드에 넣는것은 위험합니다.
+따라서 .xml 같은 파일에 넣어두고 가져와서 사용하면 좋은데
+C#은 그곳이 App.config 파일입니다.
+
+string strConn = "Data Source=(DESCRIPTION=" +
+                            "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)" +
+                            "(HOST=localhost)(PORT=1521)))" +
+                            "(CONNECT_DATA=(SERVER=DEDICATED)" +
+                            "(SERVICE_NAME=xe)));" +
+                            "User Id=hr;Password=hr;";
+
+App.config 파일에서는 <appSettings>로 넣어두세요.
+<configuration>
+  <appSettings>
+    <add key="DBConnection" value="Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)));User Id=hr;Password=hr;"/>
+  </appSettings>
+</configuration>
+
+그리고 소스코드에서는 ConfigurationManager에서 가져와서 사용합니다.
+ALT + Enter로 using import도 잊지 마세요.
+
+string strConn = ConfigurationManager.AppSettings["DBConnection"];
+
+
+
+
+두 번째 긴 SQL 구문의 경우는 C#에서 @ 표현을 사용하여 표현의 실수를 줄일 수 있습니다.
+1. string query = "Create Table PhoneBook (ID number(4) PRIMARY KEY, NAME varchar(20), HP varchar(20))";
+2. string query = @"
+                    CREATE TABLE PhoneBook 
+                    (
+                        ID number(4) PRIMARY KEY,
+                        NAME varchar(20),
+                        HP varchar(20)
+                    )";
+3. 자바와 비슷한 방법으로 StringBuilder 클래스를 이용하는 방법도 있습니다.
+   StringBuilder sb = new StringBuilder();
+   sb.AppendLine("CREATE TABLE PhoneBook (");
+   sb.AppendLine("ID number(4) PRIMARY KEY,");
+   sb.AppendLine("NAME varchar(20),");
+   sb.AppendLine("HP varchar(20)");
+   sb.AppendLine(")");
+   string query = sb.ToString();

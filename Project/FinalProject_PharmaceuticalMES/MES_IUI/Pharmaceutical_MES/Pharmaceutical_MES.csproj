@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00032F51-3270-4217-A563-9BDBC0970D77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pharmaceutical_MES</RootNamespace>
+    <AssemblyName>Pharmaceutical_MES</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Charts.WinForms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.Charts.WinForms.2.0.0\lib\net40\Bunifu.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Dataviz.WinForms, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.Dataviz.WinForms.2.2.1\lib\Bunifu.Dataviz.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.Dataviz.WinForms.2.2.1\lib\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.1.0\lib\net40\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.1.0.0\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.AccessControl.6.0.0\lib\net461\Microsoft.Win32.Registry.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.SystemEvents.6.0.0\lib\net461\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.21.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.21.12.0\lib\net462\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Odbc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.6.0.0\lib\net461\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.EventLog.6.0.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.6.0.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes.AccessControl, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipes.AccessControl.5.0.0\lib\net461\System.IO.Pipes.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Cng.5.0.0\lib\net47\System.Security.Cryptography.Cng.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.6.0.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.ProtectedData.6.0.0\lib\net461\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.6.0.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Duplex, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Duplex.4.9.0\lib\net461\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.4.9.0\lib\net461\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.NetTcp.4.9.0\lib\net461\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.9.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Security.4.9.0\lib\net461\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Syndication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Syndication.6.0.0\lib\net461\System.ServiceModel.Syndication.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ServiceProcess.ServiceController, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceProcess.ServiceController.6.0.0\lib\net461\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.1\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Services.Description, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Web.Services.Description.4.9.0\lib\net461\System.Web.Services.Description.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check.Designer.cs">
+      <DependentUpon>Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseManager.cs" />
+    <Compile Include="Login\로그인.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\로그인.designer.cs">
+      <DependentUpon>로그인.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_DELETE.Designer.cs">
+      <DependentUpon>ORDER_DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_INSERT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_INSERT.Designer.cs">
+      <DependentUpon>ORDER_INSERT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_MGR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_MGR.Designer.cs">
+      <DependentUpon>ORDER_MGR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_MODIFY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\ORDER_MGR\ORDER_MODIFY.Designer.cs">
+      <DependentUpon>ORDER_MODIFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SalesAndOrder\ObtainOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SalesAndOrder\ObtainOrder.Designer.cs">
+      <DependentUpon>ObtainOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SalesAndOrder\Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SalesAndOrder\Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_DELETE.Designer.cs">
+      <DependentUpon>SALES_DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_INSERT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_INSERT.Designer.cs">
+      <DependentUpon>SALES_INSERT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_MGR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_MGR.Designer.cs">
+      <DependentUpon>SALES_MGR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_MODIFY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\SALES_MGR\SALES_MODIFY.Designer.cs">
+      <DependentUpon>SALES_MODIFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\WorkDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\WorkDelete.Designer.cs">
+      <DependentUpon>WorkDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\WorkInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\WorkInsert.Designer.cs">
+      <DependentUpon>WorkInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\생산계획현황.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\생산계획현황.Designer.cs">
+      <DependentUpon>생산계획현황.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\작업지시.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderMGR\작업관리\작업지시.Designer.cs">
+      <DependentUpon>작업지시.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOMMGR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOMMGR.Designer.cs">
+      <DependentUpon>BOMMGR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_DELETE.Designer.cs">
+      <DependentUpon>BOM_DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_INSERT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_INSERT.Designer.cs">
+      <DependentUpon>BOM_INSERT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_MODIFY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\BOMMGR\BOM_MODIFY.Designer.cs">
+      <DependentUpon>BOM_MODIFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessDelete.Designer.cs">
+      <DependentUpon>ProcessDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessInsert.Designer.cs">
+      <DependentUpon>ProcessInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProcessMGR\ProcessMgr.Designer.cs">
+      <DependentUpon>ProcessMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\ProductMGR\ProductDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProductMGR\ProductDelete.Designer.cs">
+      <DependentUpon>ProductDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMGR\ProductMGR\ProductInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProductMGR\ProductInsert.Designer.cs">
+      <DependentUpon>ProductInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_DELETE.Designer.cs">
+      <DependentUpon>WORKORDER_DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_INSERT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_INSERT.Designer.cs">
+      <DependentUpon>WORKORDER_INSERT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_MGR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_MGR.Designer.cs">
+      <DependentUpon>WORKORDER_MGR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_MODIFY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCT_MGR\WORKORDER_MODIFY.Designer.cs">
+      <DependentUpon>WORKORDER_MODIFY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserInsert.Designer.cs">
+      <DependentUpon>UserInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfoMGR\UserSTD\UserModify.Designer.cs">
+      <DependentUpon>UserModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\DefectStatus\Defect_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\DefectStatus\Defect_Status.Designer.cs">
+      <DependentUpon>Defect_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainTemplate.Designer.cs">
+      <DependentUpon>MainTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISideBar.cs" />
+    <Compile Include="Monitoring\ProductionMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\ProductionMonitoring.Designer.cs">
+      <DependentUpon>ProductionMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\EquipmentStatus\EquipmentStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\EquipmentStatus\EquipmentStatus.Designer.cs">
+      <DependentUpon>EquipmentStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\InputStatus\InputStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\InputStatus\InputStatus.Designer.cs">
+      <DependentUpon>InputStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProcessMGR\ProductMGR\ProudctMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMGR\ProductMGR\ProudctMgr.Designer.cs">
+      <DependentUpon>ProudctMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryInsert.Designer.cs">
+      <DependentUpon>InventoryInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryModify.Designer.cs">
+      <DependentUpon>InventoryModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\MaterialStatus\InventoryStatus.designer.cs">
+      <DependentUpon>InventoryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMGR\ProductionStatus\ProductionInquery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusMGR\ProductionStatus\ProductionInquery.Designer.cs">
+      <DependentUpon>ProductionInquery.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Check.resx">
+      <DependentUpon>Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\로그인.resx">
+      <DependentUpon>로그인.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\ORDER_MGR\ORDER_MGR.resx">
+      <DependentUpon>ORDER_MGR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\SalesAndOrder\ObtainOrder.resx">
+      <DependentUpon>ObtainOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\SalesAndOrder\Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\SALES_MGR\SALES_INSERT.resx">
+      <DependentUpon>SALES_INSERT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\SALES_MGR\SALES_MGR.resx">
+      <DependentUpon>SALES_MGR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\작업관리\WorkDelete.resx">
+      <DependentUpon>WorkDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\작업관리\WorkInsert.resx">
+      <DependentUpon>WorkInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\작업관리\생산계획현황.resx">
+      <DependentUpon>생산계획현황.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMGR\작업관리\작업지시.resx">
+      <DependentUpon>작업지시.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\BOMMGR\BOMMGR.resx">
+      <DependentUpon>BOMMGR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\BOMMGR\BOM_DELETE.resx">
+      <DependentUpon>BOM_DELETE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\BOMMGR\BOM_INSERT.resx">
+      <DependentUpon>BOM_INSERT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\ProcessMGR\ProcessDelete.resx">
+      <DependentUpon>ProcessDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\ProcessMGR\ProcessInsert.resx">
+      <DependentUpon>ProcessInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\ProcessMGR\ProcessMgr.resx">
+      <DependentUpon>ProcessMgr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\ProductMGR\ProductDelete.resx">
+      <DependentUpon>ProductDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMGR\ProductMGR\ProductInsert.resx">
+      <DependentUpon>ProductInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUCT_MGR\WORKORDER_MGR.resx">
+      <DependentUpon>WORKORDER_MGR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="StandardInfoMGR\UserSTD\UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfoMGR\UserSTD\UserInsert.resx">
+      <DependentUpon>UserInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfoMGR\UserSTD\UserModify.resx">
+      <DependentUpon>UserModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\DefectStatus\Defect_Status.resx">
+      <DependentUpon>Defect_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainTemplate.resx">
+      <DependentUpon>MainTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\ProductionMonitoring.resx">
+      <DependentUpon>ProductionMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\EquipmentStatus\EquipmentStatus.resx">
+      <DependentUpon>EquipmentStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\InputStatus\InputStatus.resx">
+      <DependentUpon>InputStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ProcessMGR\ProductMGR\ProudctMgr.resx">
+      <DependentUpon>ProudctMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\MaterialStatus\InventoryInsert.resx">
+      <DependentUpon>InventoryInsert.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\MaterialStatus\InventoryModify.resx">
+      <DependentUpon>InventoryModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\MaterialStatus\InventoryStatus.resx">
+      <DependentUpon>InventoryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusMGR\ProductionStatus\ProductionInquery.resx">
+      <DependentUpon>ProductionInquery.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\HumediLogo.png" />
+    <Content Include="Resources\과립.png" />
+    <Content Include="Resources\과립3.png" />
+    <Content Include="Resources\타정.png" />
+    <Content Include="Resources\포장.png" />
+    <Content Include="Resources\호퍼.png" />
+    <Content Include="Resources\호퍼2.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets'))" />
+    <Error Condition="!Exists('..\packages\Fody.4.0.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.0.2\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+  <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
+</Project>

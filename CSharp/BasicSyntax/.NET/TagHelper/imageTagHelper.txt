@@ -1,0 +1,7 @@
+<img 
+    src="~/images/kk001.jpg" 
+    asp-append-version="true"
+    width="600"
+    height="400"
+    alt="발렌테인데이"
+/>

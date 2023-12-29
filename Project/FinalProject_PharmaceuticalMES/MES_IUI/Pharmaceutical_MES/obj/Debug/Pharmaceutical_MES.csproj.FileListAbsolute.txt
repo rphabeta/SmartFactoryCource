@@ -1,0 +1,251 @@
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.exe.config
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.exe
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.pdb
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Buffers.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Memory.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Text.Json.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.ValueTuple.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Buffers.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Memory.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Text.Json.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\System.ValueTuple.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.AssemblyReference.cache
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.MainTemplate.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Properties.Resources.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.GenerateResource.cache
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.CoreCompileInputs.cache
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.CopyComplete
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.exe
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.pdb
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ObtainOrder.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Order.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.UserInfo.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.UserModify.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Check.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProudctMgr.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.pdb
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductDelete.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductInsert.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Defect.DefectChart.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.DefectStatus.DefectStatus.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Monitoring.ProductionMonitoring.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusManagement.InputStatus.InputStatus.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProductionInquery.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkDelete.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkInsert.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.생산계획현황.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\ViewPage.작업지시.resources
+C:\Users\rphab\source\repos\Pharmaceutical_MES\Pharmaceutical_MES\obj\Debug\ViewPage.BOM관리.BOM.resources
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.exe.config
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.exe
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Pharmaceutical_MES.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.Charts.WinForms.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.Licensing.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.UI.WinForms.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Costura.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.Registry.AccessControl.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.Registry.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.SystemEvents.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Newtonsoft.Json.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\RestSharp.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Buffers.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.CodeDom.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.Odbc.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.OleDb.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.SqlClient.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Diagnostics.EventLog.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Drawing.Common.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.FileSystem.AccessControl.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.Packaging.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.Pipes.AccessControl.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.Ports.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Memory.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Numerics.Vectors.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.AccessControl.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Cng.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Permissions.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Principal.Windows.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Duplex.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Http.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.NetTcp.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Primitives.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Security.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Syndication.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceProcess.ServiceController.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Encodings.Web.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Json.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Threading.AccessControl.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ValueTuple.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Web.Services.Description.dll
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.Charts.WinForms.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.UI.WinForms.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Costura.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.WinForms.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\LiveCharts.Wpf.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.Registry.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\Newtonsoft.Json.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\RestSharp.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Buffers.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.CodeDom.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.Odbc.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.OleDb.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Data.SqlClient.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Diagnostics.EventLog.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Drawing.Common.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.Packaging.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.IO.Ports.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Memory.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Numerics.Vectors.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.AccessControl.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Permissions.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Security.Principal.Windows.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Duplex.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Http.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.NetTcp.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Security.pdb
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceModel.Syndication.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Encodings.Web.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Text.Json.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Threading.AccessControl.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.ValueTuple.xml
+C:\MES_IUI\Pharmaceutical_MES\bin\Debug\System.Web.Services.Description.pdb
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.AssemblyReference.cache
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Check.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Final_FUI.로그인.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.MainPage.MainPage.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.ORDER_MGR.ORDER_MGR.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ObtainOrder.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Order.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.SALES_MGR.SALES_INSERT.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.SALES_MGR.SALES_MGR.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkDelete.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkInsert.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.생산계획현황.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업지시.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOMMGR.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOM_DELETE.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOM_INSERT.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessDelete.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessInsert.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessMgr.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductDelete.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductInsert.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.PRODUCT_MGR.WORKORDER_MGR.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StandardInfoMGR.UserSTD.UserInfo.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StandardInfoMGR.UserSTD.UserInsert.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.UserModify.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Defect.DefectChart.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.DefectStatus.Defect_Status.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.MainTemplate.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Monitoring.ProductionMonitoring.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.EquipmentStatus.EquipmentStatus.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusManagement.InputStatus.InputStatus.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Properties.Resources.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProudctMgr.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryInsert.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryModify.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryStatus.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProductionInquery.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.ProductStatus.Product_Status.resources
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.GenerateResource.cache
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.exe.licenses
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.CoreCompileInputs.cache
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.Fody.CopyLocal.cache
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.CopyComplete
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.exe
+C:\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.pdb
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.AssemblyReference.cache
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Check.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Final_FUI.로그인.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.MainPage.MainPage.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.ORDER_MGR.ORDER_MGR.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ObtainOrder.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Order.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.SALES_MGR.SALES_INSERT.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.OrderMGR.SALES_MGR.SALES_MGR.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkDelete.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.WorkInsert.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업관리.생산계획현황.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\ViewPage.작업지시.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOMMGR.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOM_DELETE.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.BOMMGR.BOM_INSERT.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessDelete.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessInsert.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMGR.ProcessMgr.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductDelete.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProcessMGR.ProcessMgr.ProductInsert.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.PRODUCT_MGR.WORKORDER_MGR.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StandardInfoMGR.UserSTD.UserInfo.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StandardInfoMGR.UserSTD.UserInsert.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.UserModify.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.DefectStatus.Defect_Status.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.MainTemplate.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Monitoring.ProductionMonitoring.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.EquipmentStatus.EquipmentStatus.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusManagement.InputStatus.InputStatus.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.Properties.Resources.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProudctMgr.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryInsert.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryModify.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.StatusMGR.MaterialStatus.InventoryStatus.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.ProductionInquery.resources
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.csproj.GenerateResource.cache
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.exe.licenses
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.exe
+C:\Users\rphab\Desktop\새 폴더\MES_IUI\Pharmaceutical_MES\obj\Debug\Pharmaceutical_MES.pdb

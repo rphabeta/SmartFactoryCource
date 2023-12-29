@@ -1,0 +1,18 @@
+@* @model IEnumerable<EmptyViewImport01.Models.Student>  ViewImprots 덕분에 이렇게 하드코딩하지 않아도 됨.*@
+@model IEnumerable<Student>
+
+@{
+	ViewData["Title"] = "index";
+}
+
+<h1>index</h1>
+
+@{
+	foreach(var item in Model)
+	{
+		<h2>@item.ID</h2>
+		<h2>@item.Name</h2>
+		<h2>@item.Hp</h2>
+		<h2>--------------------</h2>
+	}
+}

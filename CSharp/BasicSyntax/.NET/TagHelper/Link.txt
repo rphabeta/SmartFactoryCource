@@ -1,0 +1,8 @@
+Link 만들기
+<a href = "/Home/Contact">Contact Page 1</a>
+<br />
+@Html.ActionLink("Contact Page 2", "Contact", "Home")
+<br />
+<a href="@Url.Action("Contact", "Home")">Contact Page 3</a>
+<br>
+<a asp-controller="Home" asp-action="Contact">Contact Page 4</a>
