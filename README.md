@@ -52,7 +52,7 @@ C# Winform을 기반으로 한 바이오 의약품 MES 프로그램입니다.<br
 Oracle
 
 ### 시연 영상
-- [유튜브 통합(IUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=dBkhPo_0Vr8)
+- [유튜브 통합(IUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=dBkhPo_0Vr8)<br>
 - [유튜브 현장(FUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=WPNK0wsVFm0&t=8s)
 
 
