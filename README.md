@@ -16,9 +16,6 @@ C# Winform을 기반으로 한 이차전지 리사이클링 MES 프로그램입�
 ### 개요
 C# ASP.NET을 기반으로 한 AI 예측 날씨 기반 스케줄러입니다.
 
-### 시연 영상
-(영상 링크를 여기에 추가하세요)
-
 ## 3. ThirdMiniProject_SensorDataMonitoring_MQTT
 
 ### 요약
@@ -55,8 +52,8 @@ C# Winform을 기반으로 한 바이오 의약품 MES 프로그램입니다.<br
 Oracle
 
 ### 시연 영상
-[유튜브 통합(IUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=dBkhPo_0Vr8)
-[유튜브 현장(FUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=WPNK0wsVFm0&t=8s)
+- [유튜브 통합(IUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=dBkhPo_0Vr8)
+- [유튜브 현장(FUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=WPNK0wsVFm0&t=8s)
 
 
 ---
