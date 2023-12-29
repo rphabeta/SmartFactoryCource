@@ -55,7 +55,8 @@ Oracle
 - [유튜브 통합(IUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=dBkhPo_0Vr8)<br>
 - [유튜브 현장(FUI) 시연 영상 바로가기](https://www.youtube.com/watch?v=WPNK0wsVFm0&t=8s)
 
-
+### 수상
+한국품질재단(KFQ) 산업 맞춤형 스마트팩토리 전문가 양성과정(920H) 최종 발표 최우수상
 ---
 
 ## 참고사항
